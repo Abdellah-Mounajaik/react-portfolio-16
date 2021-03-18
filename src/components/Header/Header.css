@@ -1,0 +1,26 @@
+header{
+    height: 600px;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(22, 21, 21, 0.884) !important;
+    padding-top: 5px;
+}
+ul{
+    display: flex;
+}
+.dev{
+    width: 100%;
+    height: 550px;
+    filter: brightness(50%);
+    position: absolute;
+}
+.titre{
+    position: relative;
+    text-align: center;
+    top: 225px;
+}

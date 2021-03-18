@@ -1,0 +1,49 @@
+.logo{
+    font-size: 40px;
+}
+.divc{
+    border: gray solid 1px;
+}
+#html:hover{
+    background-color: rgb(248, 116, 54);
+}
+#css:hover{
+    background-color: rgb(60, 60, 204);
+}
+#sass:hover{
+    background-color: rgb(253, 141, 159);
+}
+#boot:hover{
+    background-color: rgb(139, 30, 139);
+}
+#react:hover{
+    background-color: rgb(69, 69, 179);
+}
+#js:hover{
+    background-color: rgb(240, 240, 27);
+}
+#git:hover{
+    background-color: rgb(194, 77, 64);
+}
+#res:hover{
+    background-color: gray;
+}
+.divc:hover{
+    color: white;
+    animation: saut 1.5s linear;
+}
+
+@keyframes saut{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
