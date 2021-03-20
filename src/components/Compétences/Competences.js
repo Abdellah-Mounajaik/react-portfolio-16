@@ -1,14 +1,12 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Slide from 'react-reveal/Slide';
-import Jump from 'react-reveal/Jump';
-
 import './Competences.css'
 function Competences(props) {
     return (
-        <section className="mb-5">
+        <section className="comp pt-3 pb-1">
             <div className="mt-5 mb-5">
                 <Slide top>
-                    <h1 className="text-center test">Mes compétences</h1>
+                    <h1 className="pt-5 text-center test">Mes Compétences</h1>
                 </Slide>
             </div>
             <div className="container">
@@ -30,28 +28,26 @@ function Competences(props) {
                         <h1 className="mb-4 mt-5">Bootstrap</h1>
                         <i class="logo fab fa-bootstrap"></i>
                     </div>
-
                 </div>                                  
                 </Slide>
                 <Slide right>
                 <div className="row mt-5 mb-5">
-                    <div id="react" className="divc col-3 text-center mb-3µ">
+                    <div id="react" className="divc col-3 text-center">
                         <h1 className="mb-4 mt-5 mb">React</h1>
                         <i class=" pb-3 logo fab fa-react"></i>
                     </div>
-                    <div id="js" className="divc col-3 text-center mb-">
+                    <div id="js" className="divc col-3 text-center">
                         <h1 className="mb-4 mt-5">Javascript</h1>
-                        <i class="logo fab fa-js mb-3"></i>
+                        <i class="logo fab fa-js pb-3"></i>
                     </div>
-                    <div id="git" className="divc col-3 text-center mb-">
+                    <div id="git" className="divc col-3 text-center">
                         <h1 className="mb-4 mt-5">Git</h1>
-                        <i class="logo fab fa-git-alt"></i>
+                        <i class="logo fab fa-git-alt pb-3"></i>
                     </div>
                     <div id="res" className="divc col-3 text-center pb-4">
                         <h1 className="mb-4 mt-5">Responsive</h1>
-                        <i class="logo fas fa-mobile-alt"></i>
+                        <i class="logo fas fa-mobile-alt pb-3"></i>
                     </div>
-
                 </div>                                  
                 </Slide>
             </div>
@@ -59,5 +55,4 @@ function Competences(props) {
         </section>
     );
 }
-// html css sass react javascript git bootstrap responsive
 export default Competences;

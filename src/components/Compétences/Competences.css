@@ -30,9 +30,14 @@
 }
 .divc:hover{
     color: white;
-    animation: saut 1.5s linear;
+    animation: saut 0.9s linear infinite;
 }
-
+.comp{
+    background-color: #c5c1c1;
+    /* background-repeat: no-repeat;
+    width: 100%;
+    background-image: url("../../comp.jpg"); */
+}
 @keyframes saut{
     20%,50%,80%,to{
         transform: translateY(0);

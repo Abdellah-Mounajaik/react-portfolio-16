@@ -1,0 +1,111 @@
+.proj{
+    background-color: rgb(177, 173, 173);
+}
+
+.vib{
+    animation: vib .9s ease-in infinite;
+}
+
+@keyframes vib{
+    0%{
+        transform: translate(0);
+    }
+    20%,
+    40%,
+    60%,
+    80%{
+        transform: translate(.8rem);
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-.2rem);
+    }
+    70%,
+    100%{
+        transform: translate(0);
+    }
+}
+.hb{
+
+animation: hb 1s linear infinite;
+}
+
+@keyframes hb {
+	0% {
+		transform: rotate(-45deg) scale(1);
+	}
+	
+	10% {
+		transform: rotate(-45deg) scale(1.1);
+	}
+	
+	20% {
+		transform: rotate(-45deg) scale(0.9);
+	}
+	
+	30% {
+		transform: rotate(-45deg) scale(1.2);
+	}
+
+	40% {
+		transform: rotate(-45deg) scale(0.9);
+	}
+
+	50% {
+		transform: rotate(-45deg) scale(1.05);
+	}
+
+	60% {
+		transform: rotate(-45deg) scale(0.95);
+	}
+
+	70% {
+		transform: rotate(-45deg) scale(1);
+	}
+}
+
+
+
+
+.heart {
+	transform:  scale();
+	animation: pulse 1s linear infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform:  scale(1);
+	}
+	
+	10% {
+		transform: scale(1.1);
+	}
+	
+	20% {
+		transform:  scale(0.9);
+	}
+	
+	30% {
+		transform:  scale(1.1);
+	}
+
+	40% {
+		transform:  scale(0.9);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	60% {
+		transform:  scale(0.95);
+	}
+
+	70% {
+		transform:  scale(1);
+	}
+}
+.cursor{
+    cursor: none;
+}
