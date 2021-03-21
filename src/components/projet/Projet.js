@@ -1,14 +1,19 @@
 import React from 'react';
+import { useState } from 'react';
 import './Projet.css'
 import Bounce from 'react-reveal/Bounce';
 import Slide from 'react-reveal/Slide';
 
 function Projet(props) {
+    const [titre] = useState({
+        proj : "Mes projets",
+    
+      })
     return (
         <section className="proj pb-5">
             <div className="text-center pt-5 mb-5">
                 <Bounce top>
-                <h1>Mes projets</h1>
+                <h1>{titre.proj}</h1>
                 </Bounce>
             </div>
             <div className="container-fluid text-center">

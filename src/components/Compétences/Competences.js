@@ -1,11 +1,16 @@
+import { useState } from 'react';
 import Slide from 'react-reveal/Slide';
 import './Competences.css'
 function Competences(props) {
+    const [titre] = useState({
+        comp : "Mes compétences",
+    
+      })
     return (
         <section className="comp pt-3 pb-1">
             <div className="mt-5 mb-5">
                 <Slide top>
-                    <h1 className="pt-5 text-center test">Mes Compétences</h1>
+                    <h1 className="pt-5 text-center test">{titre.comp}</h1>
                 </Slide>
             </div>
             <div className="container">

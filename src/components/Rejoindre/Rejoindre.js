@@ -1,12 +1,13 @@
 import React from 'react';
 import './Rejoindre.css'
 import LightSpeed from 'react-reveal/LightSpeed';
-function Rejoindre(props) {
+function Rejoindre({titre}) {
+
     return (
         <section>
             <LightSpeed>
             <div className="ct text-center mt-5">
-                <h1 className="text-center mt-2">Contact</h1>
+                <h1 className="text-center mt-2">{titre.cont}</h1>
                 <h2 className="mb-3">Vous pouvez me retrouver sur :</h2>
                 <i class="lcontact fas fa-map-pin mb-3"></i>
                 <p> Bruxelles</p> 
