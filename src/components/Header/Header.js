@@ -1,11 +1,11 @@
 import './Header.css'
 import Typist from 'react-typist';
-import Navigation from '../Navigation/Navigation';
-function Header({titre}) {
+import Navbar from '../Navbar/Navbar';
+function Header() {
     return (
         <header>
-            <Navigation/>
-            <div className="">
+            <Navbar/>
+            <div>
                 <img className="dev" src="./img/dev.jpg"></img>
                 <Typist className="titre">
                     <h1 className=" text-white"> Mounajaik Abdellah</h1>

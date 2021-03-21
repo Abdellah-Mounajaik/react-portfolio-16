@@ -15,27 +15,23 @@ function Projet(props) {
             <div className="container-fluid text-center">
                 <div className="row">
                     <Slide bottom>
-                       <div className="col-4">
+                       <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : Html/Sass</h2>
-                        <img className="vib" src="./img/chef.png"></img>
+                        <img className="vib w-100" src="./img/chef.png"></img>
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : Html/Sass/Js</h2>
-                        <div className="heart">
-                            <img className="hb" className='ml-4' src="./img/emp.png"></img>    
-                        </div>
-                        
+                        <img className="vib w-100"  src="./img/emp.png"></img>    
                     </div>
-                    <div className="col-4">
+                    <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : React</h2>
-                        <img className="vib" src="./img/port.png"></img>
+                        <img className="vib w-100" src="./img/port.png"></img>
                     </div>
                     
                     </Slide>
                     
                 </div>
-            </div>
-            
+            </div>            
         </section>
     );
 }

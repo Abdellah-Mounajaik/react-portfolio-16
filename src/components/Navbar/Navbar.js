@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import'./Navbar.css'
 function Navigation(props) {
     return (
         <div>
             <nav className="d-flex justify-content-between">
                 <div>
-                   <ul className="text-white pl-3">
+                   <ul className="d-none d-md-flex text-white pl-3">
                         <li className>
                             <i class="fas fa-map-pin mr-1"></i> Bruxelles
                         </li>
@@ -16,11 +17,11 @@ function Navigation(props) {
                     </ul> 
                 </div>
                 <div className="pr-3 text-white d-flex">
-                    <NavLink className="text-white" to ="/">
-                        <p className="px-2">Accueil</p>
+                    <NavLink to ="/">
+                        <p className="text-white px-2">Accueil</p>
                     </NavLink>
-                    <NavLink className="text-white" to ="/Contact">
-                        <p>Contact</p>
+                    <NavLink to ="/Contact">
+                        <p className="text-white">Contact</p>
                     </NavLink>
                 </div>
             </nav>

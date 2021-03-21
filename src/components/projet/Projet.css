@@ -1,5 +1,5 @@
 .proj{
-    background-color: rgb(177, 173, 173);
+    background-color: rgb(99, 97, 97);
 }
 
 .vib{
@@ -14,12 +14,12 @@
     40%,
     60%,
     80%{
-        transform: translate(.8rem);
+        transform: translate(.4rem);
     }
     10%,
     30%,
     50%{
-        transform: translate(-.2rem);
+        transform: translate(-.4rem);
     }
     70%,
     100%{
@@ -28,58 +28,16 @@
 }
 .hb{
 
-animation: hb 1s linear infinite;
+animation: hb 1.5s linear infinite;
 }
 
-@keyframes hb {
+/* @keyframes hb {
 	0% {
-		transform: rotate(-45deg) scale(1);
+		transform: rotate scale(1.2);
 	}
 	
 	10% {
-		transform: rotate(-45deg) scale(1.1);
-	}
-	
-	20% {
-		transform: rotate(-45deg) scale(0.9);
-	}
-	
-	30% {
-		transform: rotate(-45deg) scale(1.2);
-	}
-
-	40% {
-		transform: rotate(-45deg) scale(0.9);
-	}
-
-	50% {
-		transform: rotate(-45deg) scale(1.05);
-	}
-
-	60% {
-		transform: rotate(-45deg) scale(0.95);
-	}
-
-	70% {
-		transform: rotate(-45deg) scale(1);
-	}
-}
-
-
-
-
-.heart {
-	transform:  scale();
-	animation: pulse 1s linear infinite;
-}
-
-@keyframes pulse {
-	0% {
-		transform:  scale(1);
-	}
-	
-	10% {
-		transform: scale(1.1);
+		transform:  scale(0.7);
 	}
 	
 	20% {
@@ -87,25 +45,23 @@ animation: hb 1s linear infinite;
 	}
 	
 	30% {
-		transform:  scale(1.1);
+		transform: scale(0.9);
 	}
 
 	40% {
-		transform:  scale(0.9);
+		transform:  scale(0.7);
 	}
 
 	50% {
-		transform: scale(1.1);
+		transform:  scale(0.9);
 	}
 
 	60% {
-		transform:  scale(0.95);
+		transform:  scale(0.7);
 	}
 
 	70% {
-		transform:  scale(1);
+		transform:  scale(0.7);
 	}
-}
-.cursor{
-    cursor: none;
-}
+} */
+

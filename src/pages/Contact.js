@@ -1,11 +1,12 @@
 import React from 'react';
-import Navigation from '../components/Navigation/Navigation';
+import Navigation from '../components/Navbar/Navbar';
+import Rejoindre from '../components/Rejoindre/Rejoindre';
 
 function Contact(props) {
     return (
         <div>
             <Navigation/>
-            <h1>abdel</h1>
+            <Rejoindre/>
         </div>
     );
 }
