@@ -2,7 +2,6 @@ import React from 'react';
 import './Projet.css'
 import Bounce from 'react-reveal/Bounce';
 import Slide from 'react-reveal/Slide';
-import Typist from 'react-typist';
 
 function Projet(props) {
     return (
@@ -17,15 +16,15 @@ function Projet(props) {
                     <Slide bottom>
                        <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : Html/Sass</h2>
-                        <img className="vib w-100" src="./img/chef.png"></img>
+                        <img className="vib w-100" src="./img/chef.png" alt="chef"></img>
                     </div>
                     <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : Html/Sass/Js</h2>
-                        <img className="vib w-100"  src="./img/emp.png"></img>    
+                        <img className="vib w-100"  src="./img/emp.png" alt="emp"></img>    
                     </div>
                     <div className="col-lg-4">
                         <h2 className="mb-4">Réaliser en : React</h2>
-                        <img className="vib w-100" src="./img/port.png"></img>
+                        <img className="vib w-100" src="./img/port.png" alt="port"></img>
                     </div>
                     
                     </Slide>

@@ -6,7 +6,7 @@ function Header() {
         <header>
             <Navbar/>
             <div>
-                <img className="dev" src="./img/dev.jpg"></img>
+                <img className="dev" src="./img/dev.jpg" alt="dev"></img>
                 <Typist className="titre">
                     <h1 className=" text-white"> Mounajaik Abdellah</h1>
                     <Typist.Delay ms={1000} />

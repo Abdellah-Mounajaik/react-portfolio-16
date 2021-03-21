@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react';
 import Slide from 'react-reveal/Slide';
 import './Competences.css'
 function Competences(props) {

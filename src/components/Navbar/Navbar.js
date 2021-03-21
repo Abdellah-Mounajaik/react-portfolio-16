@@ -13,7 +13,7 @@ function Navigation(props) {
                         <li className="ml-2">
                             Mounajaik Abdellah
                         </li>
-                        <img className="ml-3 rounded-circle mt-1" src="./img/am.jpg"></img>
+                        <img className="ml-3 rounded-circle mt-1" src="./img/am.jpg" alt="logo-am"></img>
                     </ul> 
                 </div>
                 <div className="pr-3 text-white d-flex">
